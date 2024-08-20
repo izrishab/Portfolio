@@ -125,3 +125,44 @@ nav ul li a:hover {
 .experience ul {
     display: flex;
 }
+@media only screen and (max-width: 600px) {
+    .main{
+        display: block;
+        width: 100%;
+    }
+    .header-text{
+        font-size: 16px;
+    }
+    .container{
+        text-align: center;
+    }
+    nav{
+        font-size: 13px;
+    }
+    nav ul{
+        display: inline-block;
+        padding-left: 15%;
+       
+    }
+    #welcome{
+        font-size: 10vh;
+    }
+    #intro{
+        font-size: 16px;
+        text-align: left;
+    }
+    .experience ul{
+        display: inline;
+    }
+    .experience ul li{
+        padding-bottom: 5px;
+    }
+    .contact ul{
+        display: inline;
+    }
+    .contact ul li{
+        padding-bottom: 5px;
+    }
+  }
+  
+  
