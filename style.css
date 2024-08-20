@@ -158,8 +158,8 @@ nav ul li a:hover {
     #intro{
         padding-top:40px;
         padding-bottom: 40px;
-        padding-left:0;
-        padding-right:0;
+        padding-left:2px;
+        padding-right:2px;
         width:100%;
         font-size: 16px;
         text-align: left;
