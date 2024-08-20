@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+#intro{
+    padding-top:70px;
+    padding-bottom: 70px;
+    width: 45%;            
+    height: auto;                      
+    margin: auto;            
+    border: none; 
+}
+#intro ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+.experience ul li{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1%));
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+}
+.experience ul li a{
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.experience ul li a:hover{
+    transform: scale(1.1); 
+    filter: brightness(80%); 
+}
