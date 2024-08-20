@@ -16,9 +16,9 @@ body{
     }
 
 p{
-	width: 100%;
-	height: auto;
-	box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
     padding: 20vh;
     font-size: 16px;
 }
@@ -27,6 +27,7 @@ p{
         text-align: left;
         }
     p{
+	padding:2px;
         width: 100%;
         text-align: left;
     }
