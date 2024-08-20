@@ -29,3 +29,11 @@ body{
     transform: scale(1.1); 
     filter: brightness(80%); 
 }
+@media only screen and (max-width: 600px) {
+    #intro ul{
+        display: inline;
+    }
+    #intro ul li{
+        padding-top: 5px;
+    }
+  }
