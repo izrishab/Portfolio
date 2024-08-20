@@ -125,7 +125,8 @@ nav ul li a:hover {
 .experience ul {
     display: flex;
 }
-@media only screen and (max-width: 600px) {
+
+   @media only screen and (max-width: 600px) {
     body{
         width: 100%;
     }
@@ -137,7 +138,7 @@ nav ul li a:hover {
         font-size: 16px;
     }
     .container{
-        text-align: left;
+        text-align: center;
     }
     nav{
         font-size: 13px;
@@ -154,10 +155,11 @@ nav ul li a:hover {
         width: 100%;
     }
     #intro{
-        padding:0
-        width: 100%;
+        padding-top:40px;
+        padding-bottom: 40px;
+        width:100%;
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
     .experience ul{
         display: inline;
