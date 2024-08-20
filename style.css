@@ -153,6 +153,7 @@ nav ul li a:hover {
     }
     .experience ul{
         display: inline;
+        margin: 0;
     }
     .experience ul li{
         padding-bottom: 5px;
