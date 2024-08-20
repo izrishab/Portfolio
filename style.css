@@ -134,13 +134,13 @@ nav ul li a:hover {
         font-size: 16px;
     }
     .container{
-        text-align: center;
+        text-align: left;
     }
     nav{
         font-size: 13px;
     }
     nav ul{
-        display: inline-block;
+        display: inline;
         padding-left: 10%;
        
     }
@@ -153,7 +153,7 @@ nav ul li a:hover {
     }
     .experience ul{
         display: inline;
-        margin: 0;
+        padding-left:4px;
     }
     .experience ul li{
         padding-bottom: 5px;
