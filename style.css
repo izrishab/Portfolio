@@ -136,9 +136,6 @@ nav ul li a:hover {
     .header-text{
         font-size: 16px;
     }
-    .container{
-        text-align: left;
-    }
     nav{
         font-size: 13px;
     }
@@ -149,16 +146,17 @@ nav ul li a:hover {
     }
     #welcome{
         font-size: 10vh;
+        text-align:left;
     }
     .info{
         padding:2px;
         width: 100%;
     }
     #intro{
-        padding:2px;
+        padding-top:30px;
         width: 100%;
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
     .experience ul{
         display: inline;
