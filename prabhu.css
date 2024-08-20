@@ -30,6 +30,7 @@ p{
         text-align: left;
         }
     p{
+	padding:2px;
         width: 100%;
         text-align: left;
     }
